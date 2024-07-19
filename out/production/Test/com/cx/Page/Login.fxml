@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+
+<AnchorPane prefHeight="476.0" prefWidth="695.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.cx.Page.Login">
+   <children>
+      <Button fx:id="button" layoutX="313.0" layoutY="359.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="82.0" text="登陆" />
+      <TextField fx:id="username" layoutX="259.0" layoutY="167.0" />
+      <Label layoutX="136.0" layoutY="172.0" text="用户名：" />
+      <Label layoutX="136.0" layoutY="262.0" text="密码：" />
+      <PasswordField fx:id="password" layoutX="259.0" layoutY="257.0" />
+   </children>
+</AnchorPane>
